@@ -4,7 +4,6 @@ import Mahsulotlar from './components/Mahsulotlar.vue'
 import Hamkorlar from './components/Hamkorlar.vue'
 import About from './components/About.vue'
 import Galery from './components/Galery.vue'
-import Map from './components/Map.vue'
 </script>
 
 <template>
@@ -13,7 +12,6 @@ import Map from './components/Map.vue'
     <Mahsulotlar/>
     <Galery/>
     <Hamkorlar/>
-    <Map/>
 </template>
 
 <style scoped>
