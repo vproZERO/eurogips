@@ -35,7 +35,7 @@ export default {
     },
 
 
-    // https://api.telegram.org/bot6759172233:AAGRTTni5aSpI5flaMzPhlJMZUvq_BGqYeE/sendMessage?chat_id=&text=salom
+    // https://api.telegram.org/bot6759172233:AAGRTTni5aSpI5flaMzPhlJMZUvq_BGqYeE/sendMessage?chat_id=&text=salom Abdulloh akaniki 
     methods: {
         submitForm() {
             const fullMessage = `Full name: ${this.name}
