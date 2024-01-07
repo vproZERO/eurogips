@@ -1,5 +1,5 @@
 <template>
-    <div class="container">
+    <div class="container py-5">
         <h2 class="text-center text-3xl font-bold mb-14 aos-init aos-animate" data-aos="fade-up" data-aos-duration="1500">Bizning ustunligimiz</h2>
         <div class="grid xl:grid-cols-4 grid-cols-2 xl:gap-5 gap-2  aos-init aos-animate"  data-aos="fade-up" data-aos-duration="1500">
             <div class="border border-gray-300 xl:px-5 xl:py-20 py-10  rounded-lg hover:-translate-y-2 transition hover:shadow-2xl"  >

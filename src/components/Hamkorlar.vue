@@ -1,7 +1,7 @@
 <template>
-    <div class="container overflow-hidden">
-        <h2 class="text-center text-3xl font-bold mb-14  aos-init aos-animate" data-aos="fade-up" data-aos-duration="1500">Hamkorlar</h2>
-        <div class="flex items-center gap-3  justify-between scrolling-container">
+    <div class="container overflow-hidden py-[20px] xl:pb-[50px]">
+        <h2 class="text-center text-3xl font-bold xl:mb-14 mb-5  aos-init aos-animate" data-aos="fade-up" data-aos-duration="1500">Hamkorlar</h2>
+        <div class="flex items-center gap-3 aos-init aos-animate justify-between scrolling-container" data-aos="fade-up" data-aos-duration="1500">
             <div :key="index" v-for="(item , index) in items" class="w-[150px]">
                 <img  :src="item" alt="hamkorlar">
             </div>
@@ -13,7 +13,7 @@
 export default {
     data() {
         return {
-            items: ['https://eurogips.uz/assets/img/logos/AD.png' , 'https://eurogips.uz/assets/img/logos/ALIMIX.png' , 'https://eurogips.uz/assets/img/logos/astech.png' , 'https://eurogips.uz/assets/img/logos/BRAUS.png', 'https://eurogips.uz/assets/img/logos/FORUS.png', 'https://eurogips.uz/assets/img/logos/BRAUS.png']
+            items: ['https://eurogips.uz/assets/img/logos/AD.png' , 'https://eurogips.uz/assets/img/logos/ALIMIX.png' , 'https://eurogips.uz/assets/img/logos/astech.png' , 'https://eurogips.uz/assets/img/logos/BRAUS.png', 'https://eurogips.uz/assets/img/logos/FORUS.png', 'https://eurogips.uz/assets/img/logos/habba.png']
         }
     },
 }
@@ -22,15 +22,10 @@ export default {
     .scrolling-container {
         white-space: nowrap;
         overflow: hidden;
-        animation: scrollAnimation 30s linear infinite;
+        animation: scrollAnimation 20s linear infinite;
     }
-    @media screen and (max-width: 400px) {
-        .scrolling-container {
-        white-space: nowrap;
-        overflow: hidden;
-        animation: scrollAnimation 15s linear infinite;
-    }
-    }
+    
+    
     .animated-item {
         display: block;
         opacity: 1;
