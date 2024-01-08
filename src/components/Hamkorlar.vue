@@ -3,7 +3,7 @@
         <h2 class="text-center text-3xl font-bold xl:mb-14 mb-5  aos-init aos-animate" data-aos="fade-up" data-aos-duration="1500">Hamkorlar</h2>
         <div class="flex items-center gap-3 aos-init aos-animate justify-between scrolling-container" data-aos="fade-up" data-aos-duration="1500">
             <div :key="index" v-for="(item , index) in items" class="w-[150px]">
-                <img  :src="item" alt="hamkorlar">
+                <img class=""  :src="item" alt="hamkorlar">
             </div>
 
         </div>
@@ -22,14 +22,13 @@ export default {
     .scrolling-container {
         white-space: nowrap;
         overflow: hidden;
-        animation: scrollAnimation 20s linear infinite;
+        animation: scrollAnimation 10s linear infinite;
     }
     
     
     .animated-item {
         display: block;
-        opacity: 1;
-        animation: fadeInAndSlide  5s ease infinite;
+        padding: 0 20px;
     }
 
     
