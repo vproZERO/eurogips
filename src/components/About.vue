@@ -1,5 +1,5 @@
 <template>
-    <div class="container xl:flex items-center justify-around block xl:py-14 py-10">
+    <div class="container xl:flex items-center justify-around block xl:py-10 pb-10">
         <div class="xl:w-[593px] mb-5 xl:mb-0">
             <img src="https://eurogips.uz/assets/img/gallery/photo_2023-11-13_10-25-28.jpg" alt="img">
         </div>

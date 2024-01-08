@@ -8,6 +8,8 @@ import Footer from './components/Footer.vue'
 import BizHakimizda from './components/BizHakimizda.vue'
 import Drawer from './components/Drawer.vue'
 import Malumot from './components/Malumot.vue'
+import Sertifikatlar from './components/Sertifikatlar.vue'
+import Header from './components/Header.vue'
 import { provide, ref } from 'vue'
 
 const drawer = ref(false)
@@ -42,6 +44,7 @@ provide('drawer', {
 </script>
 
 <template>
+  <Header/>
   <About/>
     <Drawer v-if="drawer"/>
     <Malumot v-if="malumot"/>
@@ -50,6 +53,7 @@ provide('drawer', {
     <Mahsulotlar @openMalumot="openMalumot" @openDrawer="openDrawer"/>
     <Galery/>
     <Hamkorlar/>
+    <Sertifikatlar/>
     <Footer/>
 </template>
 
